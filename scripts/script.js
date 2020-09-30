@@ -74,10 +74,8 @@ function showAnswer(answer) {
 function resetValues() {
     alphabeticCharCount = 0; 
     totalVowelCount = 0;   
-
     for (const [key] of Object.entries(vowelCount)) {
         vowelCount[key] = 0;
     }
-
     textContent = "";
 }
